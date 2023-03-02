@@ -9,7 +9,9 @@ I was struggling to center the `<img>` element. It got mixed up with its `<figur
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 0 auto; /* I'd omit the `0`. Some top and bottom margin would look good in this particular case. Or would `auto` demolish top and bottom margin as well? */
+  margin: 0 auto; /* I'd omit the 0. Some top and bottom spacing 
+  would look good in this particular case. Or would `auto` demolish 
+  top and bottom margin as well (set them all to 0 or some other value) */
 }
 ```  
 
