@@ -1,0 +1,227 @@
+html {
+  background-color: black;
+}
+
+body {
+  background: linear-gradient(180deg, black, darkgray);
+  border-radius: 20px 0 0 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.textualContent {
+  font-family: 'Playfair Display', serif;
+  background: linear-gradient(100deg, rgba(230,230,230,.8), rgba(230,230,230,0) 70.71%),            linear-gradient(-20deg, rgba(40,40,40,.8), rgba(125,125,125,0) 70.71%),            linear-gradient(180deg, gold, rgba(40,40,40,0) 70.71%);
+  padding: 10px 250px;
+  font-size: 150%;
+  text-align: justify;
+}
+
+
+.ainsley {
+  display: flex;
+  margin: auto;
+}
+
+.header {
+  font-family: 'Cinzel', serif;
+  font-size: 100px;
+  font-weight: 400;
+  background-color: rgb(211, 211, 211);
+  text-shadow: -1px -1px white, 1px 1px #333;
+  border-radius: 20px 0 20px 0;
+  color: white;
+  text-align: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.gradient {
+  background: linear-gradient(150deg, black, grey, darkgrey, white);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
+
+.smallGlyph {
+  display: inline;
+  font-size: 40px;
+  vertical-align: 5px;
+}
+
+.description {
+  font-size: 40px;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  padding-right: 18px;
+  text-align: right;
+}
+
+figure {
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+}
+
+figcaption { 
+/* TODO: Align <figcaption> with <img>’s content, ignoring its borders -
+this will make the image responsive
+this has something to do with <figure>, <figcaption> and flexbox
+I'll look at this later
+done: giving it `display: flex` gave it borders, inspecting the
+element with f12 showed me this, therefore `margin: auto;` just centered the bloody thing: i won't bother with the caption, srsly. i need to learn JS and backend still */
+
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 0.1em 0.1em 0.05em rgb(50, 40, 0);
+  color: gold;
+}
+
+h3 {
+  font-size: 45px;
+  text-align: center;
+  font-style: italic;
+  color: darkgoldenrod;
+  text-shadow: 0.1em 0.1em 0.05em #333;
+
+}
+
+.threeEmDash {
+  font-weight: 400;
+}
+
+
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+    color: gold;
+    background-color: rgb(50, 40, 0);
+   
+    border: 2px ridge darkgoldenrod;
+    font-size: 22px;
+}
+
+
+
+blockquote {
+  position: relative;
+  background-color: rgba(50, 40, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-left: 7px solid darkgoldenrod;
+  margin: 0;
+  padding: 10px 20px;
+  color: gold;
+  font-style: italic;
+}
+summary {
+  font-weight: 700;
+}
+details {
+  font-weight: 400;
+}
+
+#warning {
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+  border: 1px solid goldenrod;
+  text-align: center;
+  margin: 0 auto;
+}
+
+th {
+  border: 2px solid darkgoldenrod;
+}
+td, tr {
+  border: 1px solid darkgoldenrod;
+  border-collapse: collapse;
+}
+
+.material-symbols-outlined {
+  font-size: 35px;
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 900,
+  'GRAD' 0,
+  'opsz' 76
+}
+
+.pointOfAttention {
+   font-family: 'Courier New', Courier, monospace;
+}
+
+table {
+  font-size: 30px;
+}
+
+#cpyRht {
+  font-size: 25px;
+  font-family: Georgia;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#cpyRht > p {
+  font-size: 25px;
+  font-family: Georgia;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#nameAndLink > a:link {
+  color: gold;
+}
+#nameAndLink > a:visited {
+  color: darkgoldenrod;
+}
+#nameAndLink > a:hover {
+  color: yellow;
+}
+#nameAndLink > a:active {
+  color: gold;
+}
+p#nameAndLink {
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 15px;
+  font-weight: 800;
+}
+
+.littleC {
+  text-shadow: -0.1em 0.1em darkgoldenrod;
+}
+
+.justName {
+  text-decoration: underline;
+  color: darkred;
+}
+
+
+
+.flask {
+  vertical-align: -9px;
+  text-decoration: none;
+}
+
+.gradientTwo {
+background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%); 
+ background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 600;
+}
