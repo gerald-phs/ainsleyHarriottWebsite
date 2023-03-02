@@ -10,8 +10,9 @@ I was struggling to center the `<img>` element. It got mixed up with its `<figur
   max-width: 100%;
   height: auto;
   margin: 0 auto; /* I'd omit the 0. Some top and bottom spacing 
-  would look good in this particular case. Or would `auto` demolish 
-  top and bottom margin as well (set them all to 0 or some other value) */
+  would look good in this particular case. Or would `margin: auto;`,
+  the shorthand property in its most terse form, demolish top and bottom 
+  margins as well (set them all to 0 or something) */
 }
 ```  
 
